@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dwu900689.DENSO-WAVE\\source\\repos\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {}
+    "C:\\Users\\dwu900689.DENSO-WAVE\\Source\\Repos\\fukumoto0526\\Dojo\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dwu900689.DENSO-WAVE\\source\\repos\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {
+    "C:\\Users\\dwu900689.DENSO-WAVE\\Source\\Repos\\fukumoto0526\\Dojo\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dwu900689.DENSO-WAVE\\source\\repos\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+        "projectUniqueName": "C:\\Users\\dwu900689.DENSO-WAVE\\Source\\Repos\\fukumoto0526\\Dojo\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
         "projectName": "WpfApp1",
-        "projectPath": "C:\\Users\\dwu900689.DENSO-WAVE\\source\\repos\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+        "projectPath": "C:\\Users\\dwu900689.DENSO-WAVE\\Source\\Repos\\fukumoto0526\\Dojo\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
         "packagesPath": "C:\\Users\\dwu900689.DENSO-WAVE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dwu900689.DENSO-WAVE\\source\\repos\\WpfApp1\\WpfApp1\\obj\\",
+        "outputPath": "C:\\Users\\dwu900689.DENSO-WAVE\\Source\\Repos\\fukumoto0526\\Dojo\\WpfApp1\\WpfApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

@@ -23,19 +23,11 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
-        private string m_text;
-        private Model m_model;
         public MainWindow()
         {
             InitializeComponent();
-            m_model = new Model();
             var vm = new ViewModel();
-            this.DataContext = new { StringX = m_model.m_stringX ,FreeText = vm.Message};
-            
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
+            this.DataContext = new { StringCase02 = vm.m_model.m_StringCase02 };
 
         }
     }

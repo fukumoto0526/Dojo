@@ -6,10 +6,11 @@ namespace WpfApp1
 {
     class Model
     {
-        public string m_stringX;
+        public string m_StringCase02;
+
         public Model()
         {
-            m_stringX = "Fuc WPF";
+            m_StringCase02 = "Fu○k WPF";
         }
     }
 

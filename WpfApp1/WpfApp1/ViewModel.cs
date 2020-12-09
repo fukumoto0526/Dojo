@@ -9,31 +9,14 @@ namespace WpfApp1
 {
     class ViewModel : INotifyPropertyChanged
     {
-        public event PropertyChangedEventHandler PropertyChanged;
-        private void NotifyPropertyChanged([CallerMemberName] String propertyName = "")
+        public Model m_model;
+
+        public ViewModel()
         {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-            }
+            m_model = new Model();
         }
 
-        public string message = "";
-        public string change = "";
-        public string Message
-        {
-            get
-            {
-                return this.message;
-            }
-            set
-            {
-                if (value != this.message)
-                {
-                    this.message = value;
-                    NotifyPropertyChanged();
-                }
-            }
-        }
+        public event PropertyChangedEventHandler PropertyChanged;
+
     }
 }
