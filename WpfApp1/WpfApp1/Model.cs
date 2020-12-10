@@ -10,7 +10,7 @@ namespace WpfApp1
 
         public Model()
         {
-            m_StringCase02 = "Fu○k WPF";
+            m_StringCase02 = "Hello MVVM WPF";
         }
     }
 
