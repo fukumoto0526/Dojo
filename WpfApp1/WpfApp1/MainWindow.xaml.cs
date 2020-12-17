@@ -26,9 +26,6 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-            var vm = new ViewModel();
-            this.DataContext = new { StringCase02 = vm.m_model.m_StringCase02 };
-
         }
     }
 }

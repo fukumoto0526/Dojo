@@ -7,16 +7,19 @@ using System.Runtime.CompilerServices;
 
 namespace WpfApp1
 {
-    class ViewModel : INotifyPropertyChanged
+    class ViewModel
     {
-        public Model m_model;
+        public Model _model;
 
         public ViewModel()
         {
-            m_model = new Model();
+            _model = new Model();
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public string Name
+        {
+            get { return "hogege"; }
 
+        }
     }
 }
