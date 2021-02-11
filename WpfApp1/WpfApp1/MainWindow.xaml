@@ -12,5 +12,6 @@
 
     <Grid>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" Text="{Binding Path=Name}" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="179,49,0,0" VerticalAlignment="Top" Width="333" Command="{Binding }}"/>
     </Grid>
 </Window>
